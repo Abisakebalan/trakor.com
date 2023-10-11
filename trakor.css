@@ -1,0 +1,128 @@
+.bg-random {
+  background-color: rgb(2, 2, 44);
+}
+.log {
+  cursor: pointer;
+}
+.dash {
+  position: absolute;
+  top: 247%;
+  left: 11%;
+}
+.powerful {
+  margin-top: 43%;
+}
+.bg-randomc {
+  background-color: rgb(57, 57, 83);
+}
+.card {
+  transition: all 0.3s;
+}
+.card:hover {
+  transform: scale(0.9);
+}
+.list {
+  list-style: none;
+}
+.list-item {
+  text-decoration: none;
+  color: white;
+}
+.item-list {
+  text-decoration: none;
+  color: white;
+}
+.company {
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 8.9vw;
+  }
+  .top {
+    font-size: 3.8vw;
+  }
+  .header-content {
+    font-size: 3.8vw;
+  }
+  .button-1 {
+    font-size: 3.6vw;
+  }
+  .button-2 {
+    font-size: 3.6vw;
+  }
+  .first-image {
+    width: 49.4vw;
+  }
+  .company {
+    width: 45%;
+  }
+  .dash {
+    position: absolute;
+    top: 380%;
+    left: 14%;
+  }
+  .button-4 {
+    font-size: 3.6vw;
+  }
+  .button-5 {
+    font-size: 3.6vw;
+  }
+  .button-6 {
+    font-size: 3.6vw;
+  }
+  .hidden-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .text-1 {
+    font-size: 5.3vw;
+  }
+  .text-2 {
+    font-size: 5.3vw;
+  }
+}
+
+@media (max-width: 386px) {
+  .button-1 {
+    font-size: 2.9vw;
+  }
+  .button-2 {
+    font-size: 2.9vw;
+  }
+  .first-image {
+    width: 49.4vw;
+  }
+  .company {
+    width: 80%;
+  }
+  .dash {
+    position: absolute;
+    top: 281%;
+    left: 14%;
+  }
+  .button-4 {
+    font-size: 2.9vw;
+  }
+  .button-5 {
+    font-size: 2.9vw;
+  }
+  .button-6 {
+    font-size: 2.9vw;
+  }
+  .hidden-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .text-1 {
+    font-size: 5.3vw;
+  }
+  .text-2 {
+    font-size: 5.3vw;
+  }
+}
